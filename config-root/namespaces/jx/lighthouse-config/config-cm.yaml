@@ -45,7 +45,7 @@ data:
         repos:
         - Pranathi0608/jx3-k3s-vault
         - Pranathi0608/golang
-      target_url: http://lighthouse.jx.172.31.41.240.nip.io/merge/status
+      target_url: http://lighthouse.jx.172.31.39.55.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
