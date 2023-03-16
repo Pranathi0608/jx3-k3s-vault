@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: Pranathi0608
+    provider: github
+    repository: jenkinsx
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: pranathi0608-jenkinsx
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/Pranathi0608/jenkinsx.git
+  org: Pranathi0608
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jenkinsx
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/Pranathi0608/jenkinsx

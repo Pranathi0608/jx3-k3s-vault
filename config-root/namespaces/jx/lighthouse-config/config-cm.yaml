@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         Pranathi0608/golang: true
+        Pranathi0608/jenkinsx: true
         Pranathi0608/jx3-k3s-vault: true
     plank: {}
     pod_namespace: jx
@@ -21,6 +22,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         Pranathi0608/golang: merge
+        Pranathi0608/jenkinsx: merge
         Pranathi0608/jx3-k3s-vault: merge
       queries:
       - labels:
@@ -34,6 +36,7 @@ data:
         repos:
         - Pranathi0608/jx3-k3s-vault
         - Pranathi0608/golang
+        - Pranathi0608/jenkinsx
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - Pranathi0608/jx3-k3s-vault
         - Pranathi0608/golang
+        - Pranathi0608/jenkinsx
       target_url: http://lighthouse.jx.172.31.39.55.nip.io/merge/status
 kind: ConfigMap
 metadata:
